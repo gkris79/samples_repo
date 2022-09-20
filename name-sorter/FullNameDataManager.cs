@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace name_sorter
+namespace NameSorter
 {
     /// <summary>
     ///  Read FullNames data from a file in the file system

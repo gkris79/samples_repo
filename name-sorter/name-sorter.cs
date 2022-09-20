@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Collections.Generic;
 
 
-namespace name_sorter
+namespace NameSorter
 { 
     
     /// <summary>

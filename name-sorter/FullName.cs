@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace name_sorter
+namespace NameSorter
 {
     /// <summary>
     ///  structure to represent the name. 
