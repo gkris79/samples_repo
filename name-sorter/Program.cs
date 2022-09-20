@@ -1,15 +1,25 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using NameSorter;
 
+// the code snippet below will
+// 1. read the list of names from a file,
+// 2. sort the list based on Last Name and Given Name and
+// 3. write the sorted list to a file and console screen
+
 try
 {
+    // to store names read from input file.
     List<FullName> inputFullNames= null;
+
+    // to store the names post sort
     IEnumerable<FullName> outputFullNames= null;
+
+    // collection of output streams
     List<IFullNameDataWriter> outputFullNamesWriters= new List<IFullNameDataWriter>();
 
     try
     {
-        // Read the input file (filename specfified in args[0]) and get the list of the names as List<FullName>
+        // 1. Read the input file (filename specfified in args[0]) and get the list of the names as List<FullName>
         IFullNameDataReader dataReader = new FullNameTextFileReader();
         inputFullNames = dataReader.GetData(args[0]);        
     }
@@ -23,7 +33,7 @@ try
     {
         if (inputFullNames.Count > 0)
         {
-            // Sort the names by lastName and then by First Name
+            // 2. Sort the names by lastName and then by First Name
             outputFullNames = inputFullNames.SortNames();
             if(outputFullNames != null)
             {
@@ -37,7 +47,7 @@ try
 
                 try
                 {
-                    // write the sorted list to file and the Console.
+                    // 3. write the sorted list to file and the Console.
                     foreach (IFullNameDataWriter writer in outputFullNamesWriters)
                     {
                         writer.WriteToOutput(outputFullNames);
