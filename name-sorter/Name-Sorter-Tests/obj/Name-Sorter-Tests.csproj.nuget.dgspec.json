@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\Name-Sorter-Tests\\Name-Sorter-Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\Name-Sorter-Tests\\Name-Sorter-Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\Name-Sorter-Tests\\Name-Sorter-Tests.csproj",
+        "projectName": "Name-Sorter-Tests",
+        "projectPath": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\Name-Sorter-Tests\\Name-Sorter-Tests.csproj",
+        "packagesPath": "C:\\Users\\kbgir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\Name-Sorter-Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kbgir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\name-sorter.csproj": {
+                "projectPath": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\name-sorter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\name-sorter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\name-sorter.csproj",
+        "projectName": "name-sorter",
+        "projectPath": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\name-sorter.csproj",
+        "packagesPath": "C:\\Users\\kbgir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kbgir\\Personal\\source\\C#\\Interview_Challenges\\DyeNDurham\\Name-Sorter\\name-sorter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kbgir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
