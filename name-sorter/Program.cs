@@ -17,8 +17,15 @@ try
     // collection of output streams
     List<IFullNameDataWriter> outputFullNamesWriters= new List<IFullNameDataWriter>();
 
+    
     try
     {
+        // validate if the input file name was provided as a command line argument.
+        if (args== null || args.Length == 0)
+        {
+            throw new ArgumentException($"Input file name is missing.\n\n use command : name-sorter.exe  filename.txt ");
+        }
+
         // 1. Read the input file (filename specfified in args[0]) and get the list of the names as List<FullName>
         IFullNameDataReader dataReader = new FullNameTextFileReader();
         inputFullNames = dataReader.GetData(args[0]);        
