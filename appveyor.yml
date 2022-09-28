@@ -1,0 +1,7 @@
+Configuration: release
+
+before_build:
+-nuget restore
+
+build:
+verbsity: minimal
